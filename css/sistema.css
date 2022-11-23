@@ -1,0 +1,29 @@
+table{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: #004646;
+    width: 90%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+td{
+    color: rgb(213, 213, 213);
+    width: 14%;
+    font-weight: 500;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    padding: 5px;
+}
+
+th{
+    
+    color: rgb(9, 9, 9);
+    font-weight: bolder;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    padding: 5px;
+    
+}
+

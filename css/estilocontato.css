@@ -1,0 +1,368 @@
+.gg-mail,
+.gg-mail::after {
+    display: block;
+    box-sizing: border-box;
+    height: 14px;
+    border: 2px solid
+}
+.gg-mail {
+    overflow: hidden;
+    transform: scale(var(--ggs,1));
+    position: relative;
+    width: 18px;
+    border-radius: 2px
+}
+.gg-mail::after {
+    content: "";
+    position: absolute;
+    border-radius: 3px;
+    width: 14px;
+    transform: rotate(-45deg);
+    bottom: 3px;
+    left: 0
+}
+
+.gg-phone {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    width: 22px;
+    height: 22px;
+    transform: scale(var(--ggs,1))
+ }
+ .gg-phone::after,
+ .gg-phone::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute
+ }
+ .gg-phone::after {
+    width: 18px;
+    height: 18px;
+    border-top-left-radius: 1px;
+    border-bottom-right-radius: 1px;
+    border-bottom-left-radius: 12px;
+    border-left: 4px solid;
+    border-bottom: 4px solid;
+    left: 2px;
+    bottom: 2px;
+    background:
+       linear-gradient(
+          to left,
+          currentColor 10px,
+          transparent 0
+       ) no-repeat right 11px/6px 4px,
+       linear-gradient(
+          to left,
+          currentColor 10px,
+          transparent 0
+       ) no-repeat -1px 0/4px 6px
+ }
+ .gg-phone::before {
+    width: 20px;
+    height: 20px;
+    border: 6px double;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    border-radius: 50%;
+    transform: rotate(-45deg);
+    bottom: 2px;
+    left: 2px
+ }
+
+ .gg-instagram {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    border: 2px solid transparent;
+    box-shadow: 0 0 0 2px;
+    border-radius: 4px;
+    width: 20px;
+    height: 20px
+}
+.gg-instagram::after,
+.gg-instagram::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute
+}
+.gg-instagram::after {
+    border: 2px solid;
+    left: 3px;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    top: 3px
+}
+.gg-instagram::before {
+    border-radius: 3px;
+    width: 2px;
+    height: 2px;
+    background: currentColor;
+    right: 1px;
+    top: 1px
+}
+
+.gg-facebook {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 20px;
+    height: 20px
+}
+.gg-facebook::after,
+.gg-facebook::before {
+    content: "";
+    display: block;
+    position: absolute;
+    box-sizing: border-box
+}
+.gg-facebook::before {
+    width: 8px;
+    height: 20px;
+    border-left: 4px solid;
+    border-top: 4px solid;
+    border-top-left-radius: 5px;
+    left: 6px
+}
+.gg-facebook::after {
+    width: 10px;
+    height: 4px;
+    background: currentColor;
+    top: 7px;
+    left: 4px;
+    transform: skew(-5deg)
+}
+
+
+.email{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    width: 100%;
+    color: rgb(41,41,41);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+.email i,h3{
+    color: rgb(41,41,41);
+    display: inline-block;
+}
+
+.email p{
+        font-size: 15px;
+        color: rgba(0, 0, 0, 0.61);
+}
+
+.telefone{
+    
+    padding-top: 25px;
+    width: 50%;
+    color: rgb(41,41,41);
+   
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    float: left;
+}
+
+.telefone p{
+    color: rgba(0, 0, 0, 0.61);
+}
+
+.telefone i,h3{
+    color: rgb(41,41,41);
+    display: inline-block;
+}
+
+.redesocial .gg-facebook, .gg-instagram,.facebooklink, .instagramlink{
+    display: inline-flex;
+   
+    color: rgb(41,41,41);
+
+}
+
+.facebooklink, .instagramlink{
+    height: 20px;
+    width: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.redesocial{
+   
+    padding-top: 25px;
+    width: 50%;
+    color: rgb(41,41,41);
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    float: right;
+}
+
+.contatos{
+
+    
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(236, 236, 236);
+    display: block;
+    max-height: 80%;
+    min-height: 256px;
+    font-weight: bold;
+    border-radius: 10px;
+    position: relative;
+   
+
+   
+}
+
+.div2contato{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 72px;
+}
+
+@media only screen and (max-width:800px){
+
+   
+
+    .redesocial{
+        width: 100%;
+        padding-bottom: 25px;
+        padding-top: 25px;
+        float: none;
+    }
+
+    .telefone{
+        width: 100%;
+        padding-bottom: 25px;
+        float: none;
+    }
+
+    .imagi .paragrafoimg{
+        padding: 0%;
+    }
+
+    .imagi{
+        margin-top: 0%;
+    }
+
+
+}
+
+@media only screen and (max-height:800px){
+    
+    .contatos{
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+
+}
+
+
+.imagemcontatos{
+    width: 200px;
+    
+}
+
+
+.imagi{
+    padding: 20px;
+    text-align: center;
+    height: 43.13px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+
+
+html{
+   height:100%;
+}
+
+body{
+    height: 100%;
+}
+main{
+    height: 70%;
+    
+}
+
+
+@media only screen and (min-height:630px) {
+    footer{
+  
+        position: fixed;
+    
+    }
+    
+  }
+
+
+  @media only screen and (min-height:700px) {
+    .contatos{
+        margin-top: 5%;
+        height: 60%;
+        
+    }
+
+    .email{
+        padding-top: 5%;
+        padding-bottom: 3%;
+        width: 100%;
+        color: rgb(41,41,41);
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        font-family: 'Lato', sans-serif;
+    }
+    .email i,h3{
+        color: rgb(41,41,41);
+        display: inline-block;
+    }
+    
+    .email p{
+            font-size: 15px;
+            color: rgba(0, 0, 0, 0.61);
+    }
+    
+    .telefone{
+        
+        padding-top: 5%;
+        width: 50%;
+        color: rgb(41,41,41);
+       
+        text-align: center;
+        font-family: 'Lato', sans-serif;
+        float: left;
+    }
+    
+ 
+    .redesocial{
+       
+        padding-top: 5%;
+        width: 50%;
+        color: rgb(41,41,41);
+        text-align: center;
+        font-family: 'Lato', sans-serif;
+        float: right;
+    }
+    .imagi{
+        padding-top: 5%;
+        text-align: center;
+        height: 43.13px;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+    }
+    
+  }

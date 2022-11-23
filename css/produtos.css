@@ -1,0 +1,158 @@
+
+.barramenu{
+  color: transparent;
+  font-family: 'Lato', sans-serif;
+  padding: 10px 0;
+  text-align: center;
+  background-color: teal;
+  width: 100%;
+  
+  top: 0;
+ 
+}
+
+.mainprodutos{
+  min-height: 900px;
+  display: block;
+}
+
+.titulo{
+  font-family: 'Lato', sans-serif;
+  background-color: rgba(95, 158, 160, 0.521) ;
+  padding: 10px 0;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.produtos{
+  grid-template-columns: auto auto auto auto ;
+  display: grid;
+  margin: auto;
+  width: 90%;  
+  padding: 5px;
+  height: 90%;
+  align-content: stretch;
+  justify-content: center;
+
+}
+
+
+@media only screen and (max-width:800px) {
+  .produtos{
+    grid-template-columns: auto auto;
+    display: grid;
+    justify-content: center;
+  }
+  .card{
+    width: 90%;
+  
+  }
+
+  .produtos a{
+    max-width: 100%;
+  }
+
+}
+
+
+.produtos1{
+  grid-template-columns: auto auto auto auto ;
+  display: grid;
+  margin: auto;
+  width: 90%;  
+  padding: 5px;
+  height: 90%;
+  align-content: stretch;
+  justify-content: center;
+
+}
+
+
+@media only screen and (max-width:800px) {
+  .produtos1{
+    grid-template-columns: auto auto;
+    display: grid;
+    justify-content: center;
+  }
+
+  .produtos a{
+    max-width: 100%;
+  }
+
+}
+
+
+.card{
+
+  padding: 5px;
+  margin: 2%;
+  max-width: 300px;
+  background-color: rgb(13, 57, 82);
+  border-radius: 10px;
+  text-align: center;
+  height: 95%;
+
+}
+
+.card img{
+
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  
+
+}
+
+
+.produtos a{
+color: rgba(255, 255, 255, 0.575);
+width: auto;
+max-width: 300px;
+
+}
+
+.produtos h2{
+  color: white;
+}
+
+.titulo2{
+font-family: 'Lato', sans-serif;
+padding: 10px 0;
+text-align: center;
+background-color: rgba(0, 168, 168, 0.459);
+
+
+}
+
+
+.linktitulos2{
+
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+    gap: 2%;
+}
+
+
+.linktitulo2{
+  width: 33.333%;
+
+  
+}
+
+
+.linktitulo2 img{
+  max-width: 300px;
+  width: 100%;
+  max-height: 100px;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.linktitulo2{
+  width: 100%;
+}

@@ -1,0 +1,56 @@
+.maintipos{
+    margin-bottom: 5%;
+    
+}
+
+.texto-h2-divprodutos{
+    color: rgb(24, 24, 24);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    text-align: center;
+    
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    
+  }
+
+  .divprodutos{
+      background-color: rgba(95, 158, 160, 0.527);
+  }
+
+  .maisprodutos{
+    background-color: rgb(244 186 100);
+    border-radius: 5px;
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+   color: rgb(43, 43, 43);
+    margin-top: 5%;
+    box-shadow: 3px 3px 0px rgb(165, 136, 92);
+
+  }
+
+.link-maisprodutos{
+   width: 25%;
+   margin-left: auto;
+   margin-right: auto;
+}
+.link-maisprodutos a:hover{
+    
+    opacity: 0.90;
+  
+}
+
+.divprodutos{
+    padding-bottom: 5%;
+}
+
+.maisprodutos{
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-family:  system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    
+}
+
+

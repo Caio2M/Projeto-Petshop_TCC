@@ -1,0 +1,43 @@
+main{
+    min-height: 400px;
+
+    padding-bottom: 5%;
+   
+
+}
+
+
+.fazercadastro{
+    text-align: right;
+    margin-right: 9%;
+}
+footer{
+    position: absolute;
+}
+
+
+
+@media only screen and (max-height:700px) {
+    footer{
+  
+        position: absolute;
+    
+    }
+
+   
+
+  }
+
+
+@media only screen and (max-height:699px) {
+    footer{
+  
+        position: revert;
+    
+    }
+
+   
+
+  }
+
+

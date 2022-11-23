@@ -1,0 +1,96 @@
+html{
+    max-width: 100%;
+}
+
+.imagem img{
+    max-height: 500px;
+    height: 100%;
+    width: 100%;
+}
+
+
+.imagem{
+    align-self: center;
+    border-right: rgba(0, 0, 0, 0.493) solid 2px;
+    text-align: center;
+    width: 40%;
+}
+
+.texto01{
+    
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-shadow: rgba(0, 0, 0, 0.233) 0.5px 0.5px;
+
+}
+
+.texto01 h3{
+    
+    color: rgb(20, 20, 20);
+    
+
+}
+
+.botao_comprar h1{
+    color: rgb(226, 226, 226);
+    background-color: rgb(13, 57, 82);
+    text-align: center;
+    margin: auto;
+    margin-top: 5px;
+    width: 100%;
+    border-radius: 20px;
+    
+
+
+}
+
+
+.botaovoltar{
+
+    
+    margin-left: auto;
+    margin-top: 5px;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    color: rgb(219 219 219);
+    background-color: rgb(0 106 106);
+
+}
+
+
+.texto01 h2{
+    
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    
+
+}
+
+
+.divprodutos01{
+    border-bottom-left-radius: 15px ;
+    border-bottom-right-radius: 15px ;
+    width: 80%;
+    max-height: 600px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    background: #f7c06b;
+}
+
+@media only screen and (min-height:800px) {
+    footer{
+  
+        position: fixed;
+    
+    }
+    
+  }
+
