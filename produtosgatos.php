@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empório Pet</title>
+    <link rel="icon" type="image/x-icon" href="img/logo_tcc.png">
+    <link rel="stylesheet" href="css/css1.css">
+    <link rel="stylesheet" href="css/produtos.css">
+
+    <style>
+
+        .imagem{
+
+            border: 1px solid rgb(255, 255, 255);
+
+        }
+        
+    </style>
+    
+</head>
+<body>
+    <header>
+        <nav>
+            <a class="logo" href="index.php"><img src="img/logonova.png"alt=""> </a>
+            
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            
+            <ul class="nav-list">
+
+<li><a href="index.php">Inicio</a></li>
+<li><a href="sobrenos.php">Sobre nós</a></li>
+<li><a href="produtos.php">Produtos</a></li>
+
+<li><a href="login.php">Login</a></li>
+
+</ul>
+        </nav>
+    </header>
+    
+
+    <div class="mainprodutos" >
+        
+    
+            
+    
+            <div class="titulo2">
+             
+                <div class="linktitulos2">
+                <a class="linktitulo2" href="produtoscachorros.php"><img src="img/imagemgrid1.png" alt=""></a>
+                <a class="linktitulo2" href="produtosgatos.php"><img class="imagem" src="img/imagemgrid2.png" alt=""></a>
+                <a class="linktitulo2" href="produtos.php"><img src="img/imagemgrid3.png" alt=""></a>
+
+                <a class="linktitulo2" href="racoes.php"><img src="img/imagemgrid4.png" alt=""></a>
+                <a class="linktitulo2" href="higiene.php"><img src="img/imagemgrid5.png" alt=""></a>
+                <a class="linktitulo2" href="conforto.php"><img src="img/imagemgrid6.png" alt=""></a>
+            </div>
+            </div>
+
+        <div class="produtos">
+
+            <a href="produto1.php">
+                <div class="card">
+                     
+                    <img src="img/produtos/produto1.png" alt="">
+                    <h3>Ração Golden Gatos Adultos Carne <br> 10,1kg</h3>
+                    <h2>R$ 139,41</h2>
+                        
+                </div>
+            </a>  
+            <a href="produto2.php">
+                <div class="card">
+                    <img src="img/produtos/produto2.png" alt="">
+                    <h3> Ração Golden Gatos Adultos Sabor Frango  <br> 10,1kg</h3>
+                    <h2>R$ 156,99</h2>
+    
+                </div></a>
+    
+                <a href="produto3.php">
+                <div class="card">
+                    <img src="img/produtos/produto3.png" alt="">
+                    <h3>Ração Seca PremieR Pet Golden Salmão para Gatos Adultos Castrados - 10,1kg</h3>
+                    <h2>R$ 159,21</h2>
+    
+                </div></a>
+    
+                <a href="produto4.php">
+                <div class="card">
+                    <img src="img/produtos/produto4.png" alt="">
+                    <h3>Ração Seca PremieR Pet Golden Gatos Filhotes Frango <br> 10,1kg</h3>
+                    <h2>R$ 166,90</h2>
+    
+                </div></a>
+    
+                <a href="produto5.php">
+                <div class="card">
+                    <img src="img/produtos/produto5.png" alt="">
+                    <h3>Petisco Whiskas Temptations Pelo Saudável Para Gatos <br>40g</h3>
+                    <h2>R$ 10,99</h2>
+    
+                </div></a>
+    
+                <a href="produt6.php">
+                    <div class="card">
+                        <img src="img/produtos/produto6.png" alt="">
+                        <h3>Petisco Whiskas Temptations para Gatos Adultos Sabor Salmão <br> 40g </h3>
+                        <h2>R$ 9,09</h2>
+        
+                    </div></a>
+
+                    <a href="produto13.php">
+                        <div class="card">
+                             
+                            <img src="img/produtos/produto13.png" alt="">
+                            <h3> Shampoo I Love Pet Gato para Gatos <br> 500ml                </h3>
+                            <h2>R$ 33,99</h2>
+                                
+                        </div>
+                    </a>  
+                    <a href="produto14.php">
+                        <div class="card">
+                            <img src="img/produtos/produto14.png" alt="">
+                            <h3>Shampoo Sanol Cat <br> para Gatos <br> 500ml            </h3>
+                            <h2>R$ 13,99</h2>
+            
+                        </div></a>
+            
+                        <a href="produto15.php">
+                        <div class="card">
+                            <img src="img/produtos/produto15.png" alt="">
+                            <h3>Shampoo Ibasa Bio Defense para Cães e Gatos - 200ml                       </h3>
+                            <h2> R$ 84,99</h2>
+            
+                        </div></a>
+            
+                        <a href="produto16.php">
+                        <div class="card">
+                            <img src="img/produtos/produto16.png" alt="">
+                            <h3>Clorexsyn Shampoo Antisséptico para Cachorro e Gatos - 200ml                     </h3>
+                            <h2>R$ 48,90</h2>
+            
+                        </div></a>
+            
+                        <a href="produto17.php">
+                        <div class="card">
+                            <img src="img/produtos/produto17.png" alt="">
+                            <h3>Shampoo Avert Noxxi Control para Cães e Gatos - 200ml                       </h3>
+                            <h2>R$ 86,28</h2>
+            
+                        </div></a>
+            
+                        <a href="produto18.php">
+                            <div class="card">
+                                <img src="img/produtos/produto18.png" alt="">
+                                <h3>Shampoo Pet Society Pelos Claros para Cães e Gatos - 300ml                </h3>
+                                <h2>R$ 51,99</h2>
+                
+                            </div></a>
+                
+                            <a href="produto19.php">
+                            <div class="card">
+                                <img src="img/produtos/produto19.png" alt="">
+                                <h3>Cama Pawise para Gatos Deluxe Round                          </h3>
+                                <h2>R$ 89,99</h2>
+                
+                            </div></a>
+                
+                            <a href="produto20.php">
+                            <div class="card">
+                                <img src="img/produtos/produto20.png" alt="">
+                                <h3>Cama Pawise para Gatos Bloster Vermelha                    </h3>
+                                <h2>R$ 89,99</h2>
+                
+                            </div></a>
+                
+                            <a href="produto21.php">
+                            <div class="card">
+                                <img src="img/produtos/produto21.png" alt="">
+                                <h3>Cama Pawise para Gatos Bloster Cinza                       </h3>
+                                <h2> R$ 89,99</h2>
+                
+                            </div></a>
+        
+                            <a href="produto23.php">
+                                <div class="card">
+                                    <img src="img/produtos/produto23.png" alt="">
+                                    <h3>Cama Fábrica Pet Retangular Marinho para Cães e Gatos         </h3>
+                                    <h2>                R$ 85,99</h2>
+                    
+                                </div></a>
+                    
+                                <a href="produto24.php">
+                                <div class="card">
+                                    <img src="img/produtos/produto24.png" alt="">
+                                    <h3>Cama Fábrica Pet Oval Unic Azul para Cães e Gatos                           </h3>
+                                    <h2>R$ 79,99</h2>
+                    
+                                </div></a>
+                
+            
+                    
+        </div>
+       
+    
+    </div>
+
+    <footer>
+
+    <div class="textinfooter">
+
+        <h2>Como podemos <br> ajudar você?</h2>
+          <p>Conheça mais sobre nossa empresa e tenha o melhor atendimento do mercado pet.</p>
+          
+    </div>
+    <div class="divatendimento">
+        <p><img src="img/logo_tcc.png" alt=""></p>
+       <h3>Atendimento</h3><br>
+       <p>atendimentoEmporioPet@gmail.com</p><br>
+       <a href="contato.php">Contato</a>
+       
+
+    </div>
+
+    </footer>
+    
+    <script src="js/mobile-navbar.js"></script>
+   
+</body>
+</html>
